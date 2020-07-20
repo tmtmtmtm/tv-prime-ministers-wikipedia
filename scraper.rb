@@ -19,26 +19,27 @@ class ListPage < Scraped::HTML
   private
 
   def list
-    noko.xpath('.//table[.//th[contains(., "Gouvernement")]]').first
+    noko.xpath('.//table[.//th[contains(., "Tenure")]]').last
   end
 end
 
 # Each officeholder in the list
 class HolderItem < Scraped::HTML
   field :id do
-    tds[2].css('a/@wikidata').map(&:text).first
+    tds[1].css('a/@wikidata').map(&:text).first
   end
 
   field :name do
-    tds[2].text.tidy
+    tds[1].css('a').text.tidy
   end
 
   field :start_date do
-    tds[0].css('time/@datetime').text
+    Date.parse tds[2].text
   end
 
   field :end_date do
-    tds[1].css('time/@datetime').text
+    return if tds[3].text.include? 'Incumbent'
+    Date.parse tds[3].text
   end
 
   field :replaces do
