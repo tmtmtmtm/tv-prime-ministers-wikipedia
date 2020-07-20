@@ -1,0 +1,114 @@
+[
+  {
+    "item": {
+      "value": "Q965247",
+      "label": "Toaripi Lauti"
+    },
+    "statement": "Q965247$DE6B1986-23C4-4623-93F0-FA044A9A659F"
+  },
+  {
+    "item": {
+      "value": "Q287513",
+      "label": "Maatia Toafa"
+    },
+    "statement": "Q287513$4DFC0B53-A2C1-449E-AFC1-2D2C206CC7A2"
+  },
+  {
+    "item": {
+      "value": "Q919316",
+      "label": "Tomasi Puapua"
+    },
+    "replaces": {
+      "value": "Q965247",
+      "label": "Toaripi Lauti"
+    },
+    "replacedBy": {
+      "value": "Q126443",
+      "label": "Bikenibeu Paeniu"
+    },
+    "statement": "Q919316$AE157B33-4B43-4E59-830D-83F629B7BE68",
+    "ordinal": "2",
+    "start": "1981-09-08T00:00:00Z",
+    "end": "1989-10-16T00:00:00Z"
+  },
+  {
+    "item": {
+      "value": "Q961043",
+      "label": "Ionatana Ionatana"
+    },
+    "replaces": {
+      "value": "Q126443",
+      "label": "Bikenibeu Paeniu"
+    },
+    "replacedBy": {
+      "value": "Q663723",
+      "label": "Lagitupu Tuilimu"
+    },
+    "statement": "Q961043$1232E130-8F3B-4454-BBFE-E158BEE8BA49",
+    "start": "1999-04-27T00:00:00Z",
+    "end": "2000-12-08T00:00:00Z"
+  },
+  {
+    "item": {
+      "value": "Q164931",
+      "label": "Faimalaga Luka"
+    },
+    "replaces": {
+      "value": "Q663723",
+      "label": "Lagitupu Tuilimu"
+    },
+    "replacedBy": {
+      "value": "Q965221",
+      "label": "Koloa Talake"
+    },
+    "statement": "Q164931$21ECC151-79C9-46C8-B482-6B8331E15D8F",
+    "start": "2001-02-24T00:00:00Z",
+    "end": "2001-12-13T00:00:00Z"
+  },
+  {
+    "item": {
+      "value": "Q384322",
+      "label": "Saufatu Sopoanga"
+    },
+    "replaces": {
+      "value": "Q965221",
+      "label": "Koloa Talake"
+    },
+    "replacedBy": {
+      "value": "Q287513",
+      "label": "Maatia Toafa"
+    },
+    "statement": "Q384322$28D9A6D6-B1B0-41B2-8EB1-6ABBEB8E0F38",
+    "start": "2002-08-02T00:00:00Z",
+    "end": "2004-08-27T00:00:00Z"
+  },
+  {
+    "item": {
+      "value": "Q316267",
+      "label": "Apisai Ielemia"
+    },
+    "replaces": {
+      "value": "Q287513",
+      "label": "Maatia Toafa"
+    },
+    "replacedBy": {
+      "value": "Q287513",
+      "label": "Maatia Toafa"
+    },
+    "statement": "Q316267$34EC88D6-4C61-4380-95B4-17E1A6DDBC09",
+    "start": "2006-08-14T00:00:00Z",
+    "end": "2010-09-29T00:00:00Z"
+  },
+  {
+    "item": {
+      "value": "Q330640",
+      "label": "Enele Sopoaga"
+    },
+    "replaces": {
+      "value": "Q561559",
+      "label": "Willy Telavi"
+    },
+    "statement": "Q330640$383472bd-4ea4-7416-9a12-cd3223b3783f",
+    "start": "2013-08-01T00:00:00Z"
+  }
+]
