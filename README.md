@@ -48,6 +48,9 @@ This is a fairly simple table so only needed a few small tweaks
 the first is for the Chief Minister of the Ellice Islands. As that only
 had one officeholder, I might add it manually at the end.
 
+* Later update: Hah! That's not so simple. See thread at
+https://twitter.com/tmtm/status/1285141272777433088
+
 Step 6: Create missing P39s
 ===========================
 
